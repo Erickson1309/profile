@@ -1,67 +1,56 @@
 body {
   background-color: black;
+  font-family: 'Jost', sans-serif;
 }
 
 h1 {
-  /*font-family: 'Jost', sans-serif;*/
+/*  font-family: 'Jost', sans-serif;*/
   font-family: 'Yellowtail', cursive;
   color: white;
   font-size: 250px;
   text-align: center;
-  margin: auto;
-  vertical-align: middle;
+  margin-top: 5%;
 }
 
-.topnav {
-  justify-content: space-between;
-  background-color: white;
-  font-size: 25px;
-  font-color: white;
-  text-align: right;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-li {
-  display:inline;
+.margin {
+  margin-top: 0%;
+  margin-bottom: 50%;
 }
 
-.home {
-  font-family: 'Yellowtail', cursive;
-  text-align: left;
+.parallax {
+  background: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_133492352_287666.jpg") yellow repeat fixed 100%;
+  /*background-color: white;*/
 }
 
+.parallax-inner {
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
 
-.arrow {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.container {
+  display: flex;
+  justify-content: space-around;
 }
-.arrow span{
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid #ffffff;
-    border-right: 5px solid #ffffff;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: animate 4s infinite;
+
+#block1 {
+  display: inline;
+  width: 400px;
+  height: 400px;
+  padding: 30px 30px 0px 30px;
+  background-color: #F1F1EC;
 }
-.arrow span:nth-child(2){
-    animation-delay: -0.2s;
+
+#block2 {
+  display: inline;
+  width: 600px;
+  height: 400px;
+  padding: 30px 30px 30px 30px;
+  background-color: #F1F1EC;
 }
-.arrow span:nth-child(3){
-    animation-delay: -0.4s;
-}
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
-    }
-}
+

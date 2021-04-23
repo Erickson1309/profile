@@ -28,8 +28,8 @@ h1 {
   /*background-color: white;*/
 }
 
-.parallax-inner {
-  padding-top: 15%;
+.parallax-inner2 {
+  padding-top: 0%;
   padding-bottom: 5%;
 }
 
@@ -41,12 +41,24 @@ h1 {
 #block1 {
   display: inline;
   width: 400px;
+  padding: 30px 30px 10px 0px;
+}
+
+#block2 {
+  display: inline;
+  width: 600px;
+  padding: 30px 30px 0px 30px;
+}
+
+#block3 {
+  display: inline;
+  width: 400px;
   height: 400px;
   padding: 30px 30px 0px 30px;
   background-color: #F1F1EC;
 }
 
-#block2 {
+#block4 {
   display: inline;
   width: 600px;
   height: 400px;

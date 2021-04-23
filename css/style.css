@@ -20,7 +20,7 @@ h1 {
 
 .margin {
   margin-top: 0%;
-  margin-bottom: 50%;
+  margin-bottom: 0%;
 }
 
 .parallax {
@@ -46,28 +46,28 @@ h1 {
 
 #block1 {
   display: inline;
-  width: 400px;
-  padding: 30px 30px 10px 0px;
+  width: 500px;
+  padding: 30px 30px 15px 0px;
 }
 
 #block2 {
   display: inline;
-  width: 600px;
+  width: 750px;
   padding: 30px 30px 0px 30px;
 }
 
 #block3 {
   display: inline;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   padding: 30px 30px 0px 30px;
   background-color: #F1F1EC;
 }
 
 #block4 {
   display: inline;
-  width: 600px;
-  height: 400px;
+  width: 750px;
+  height: 500px;
   padding: 30px 30px 30px 30px;
   background-color: #F1F1EC;
 }

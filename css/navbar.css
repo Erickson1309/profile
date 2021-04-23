@@ -16,12 +16,12 @@
   font-size: 25px;
   text-align: left;
   color: white;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 20px;
   text-align: right;
-  padding-right: 25px;
+  padding-right: 30px;
   color: white;
 }

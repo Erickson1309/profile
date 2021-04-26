@@ -55,20 +55,20 @@ h1 {
 
 #block1 {
   display: inline;
-  width: 500px;
+  width: 400px;
   padding: 30px 30px 15px 0px;
 }
 
 #block2 {
   display: inline;
-  width: 750px;
+  width: 650px;
   padding: 30px 30px 0px 30px;
 }
 
 #block3 {
   display: inline;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   padding: 30px 30px 0px 30px;
   background-color: #F1F1EC;
   background-image: url("../images/traininghelmet.jpg");
@@ -76,16 +76,16 @@ h1 {
 
 #block4 {
   display: inline;
-  width: 750px;
-  height: 500px;
+  width: 650px;
+  height: 400px;
   padding: 30px 30px 30px 30px;
   background-color: #F1F1EC;
 }
 
 #block5 {
   display: inline;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   padding: 30px 30px 0px 30px;
   background-color: #F1F1EC;
 }
